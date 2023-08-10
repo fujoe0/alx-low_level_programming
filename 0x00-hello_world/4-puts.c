@@ -1,13 +1,11 @@
 #include <stdio.h>
 /**
- * main - Entry point of the program
+ * main - a C program that prints exactly an output, and follows it with a new line
  *
- * This function prints a message to the standard output.
- *
- * Return: Always 0 (indicating success)
+ * Return: 0 (Success)
  */
 int main(void)
 {
-    puts("\"Programming is like building a multilingual puzzle");
-    return (0);
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
 }
