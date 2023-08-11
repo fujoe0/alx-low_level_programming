@@ -6,7 +6,7 @@
  *
  * Return: Always 0 (Success)
  */
-int head(void)
+int main(void)
 {
 int x;
 
