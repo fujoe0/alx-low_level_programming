@@ -10,7 +10,7 @@ int main(void)
 {
 char x;
 
-for (c = 'a'; y <= 'z'; c++)
+for (c = 'a'; c <= 'z'; c++)
 if (c != 'e' && c != 'q')
 putchar(c);
 putchar('\n');
