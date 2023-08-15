@@ -1,15 +1,12 @@
 #include "main.h"
 /**
- * This program prints _putchar, and follows it with a new line
- *
- *
+ * main - prints _putchar, using a prototype
+ * 
  * Return: 0
  */
 
 int main(void)
 {
-/**Prints each character of "_putchar"
-*/
 _putchar('_');
 _putchar('p');
 _putchar('u');
@@ -21,4 +18,3 @@ _putchar('r');
 _putchar('\n');
 return (0);
 }
-
