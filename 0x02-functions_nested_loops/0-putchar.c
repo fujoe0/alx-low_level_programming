@@ -2,6 +2,7 @@
 /**
  * This program prints _putchar, and follows it with a new line
  *
+ * Prints each character of "_putchar"
  * Return: 0
  */
 
