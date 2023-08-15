@@ -2,12 +2,14 @@
 /**
  * This program prints _putchar, and follows it with a new line
  *
- * Prints each character of "_putchar"
+ *
  * Return: 0
  */
 
 int main(void)
 {
+/**Prints each character of "_putchar"
+*/
 _putchar('_');
 _putchar('p');
 _putchar('u');
