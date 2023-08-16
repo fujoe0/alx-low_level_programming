@@ -1,25 +1,17 @@
-#include "main.h"
 #include <stdio.h>
 /**
-*print_to_98 - prints natural
-*numbers from n down to 98
-*@n:integer to start by
-*return: returns nothing
+*main - prints count of multiples
+*of 3 or 5 below 1024
+*Return: return 0
 */
-void print_to_98(int n)
+int main(void)
 {
-if (n >= 98)
+int n, sum = 0;
+for (n = 0; n < 1024; n++)
 {
-while (n > 98)
-printf("%d, ", n--);
-
-printf("%d\n", n);
+if ((n % 3) == 0 || (n % 5) == 0)
+sum += n;
 }
-else
-{
-while (n < 98)
-printf("%d, ", n++);
-
-printf("%d\n", n);
-}
+printf("%d\n", sum);
+return (0);
 }
