@@ -1,15 +1,25 @@
 #include "main.h"
-
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * print_rev - prints a string in reverse
+ * @s: string
+ * return: 0
  */
-int main(void)
+void print_rev(char *s)
 {
-    char *str;
+	int longi = 0;
+	int o;
 
-    str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-    print_rev(str);
-    return (0);
+	while (*s != '\0')
+	{
+		longi++;
+		s++;
+	}
+	s--;
+	for (o = longi; o > 0; o--)
+	{
+		_putchar(*s);
+		s--;
+	}
+
+	_putchar('\n');
 }
