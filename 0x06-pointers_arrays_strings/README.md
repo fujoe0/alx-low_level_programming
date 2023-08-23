@@ -1,1 +1,1 @@
-README file for pointers, arrays, and strings
+A README file for the pointers, arrays, and strings task
