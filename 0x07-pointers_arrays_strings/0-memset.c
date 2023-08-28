@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * * _memset - Entry point
- * @s: A pointer to the destination memory area 
- * where the constant byte will be stored.
- * @b: The constant byte that will be stored in the memory area.
- * @n: The number of bytes to fill with the constant byte.
+ * _memset - The entry point
+ * @s: This is the pointed destination
+ * @b: The constant byte
+ * @n: bytes
  * Return: Always 0 (Success)
  */
 char *_memset(char *s, char b, unsigned int n)
