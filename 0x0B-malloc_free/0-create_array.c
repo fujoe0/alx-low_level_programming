@@ -31,7 +31,7 @@ char *create_array(unsigned int size, char c)
 
 	while (position < size)
 	{
-*(buffer + position) = c; /* Set each element to the character c */
+	*(buffer + position) = c; /* Set each element to the character c */
 	position++;
 	}
 
