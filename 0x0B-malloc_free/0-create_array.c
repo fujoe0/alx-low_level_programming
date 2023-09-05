@@ -12,14 +12,14 @@
 char *create_array(unsigned int size, char c)
 {
 	char *buffer;               /* Declare a pointer to char for the array */
-	unsigned int position;      /* Declare a variable to keep track of the position */
+	unsigned int position;      /* Declares variable to keep track of position */
 
 	if (size == 0)
 	{
 	return (NULL);          /* Return NULL if size is 0 (edge case) */
 	}
 
-	buffer = (char *) malloc(size * sizeof(c)); /* Allocate memory for the array */
+	buffer = (char *) malloc(size * sizeof(c)); /* Allocate memory for array */
 
 	if (buffer == 0)
 	{
