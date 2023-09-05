@@ -11,30 +11,30 @@
  */
 char *create_array(unsigned int size, char c)
 {
-    char *buffer;               /* Declare a pointer to char for the array */
-    unsigned int position;      /* Declare a variable to keep track of the position */
+	char *buffer;               /* Declare a pointer to char for the array */
+	unsigned int position;      /* Declare a variable to keep track of the position */
 
-    if (size == 0)
-    {
-        return (NULL);          /* Return NULL if size is 0 (edge case) */
-    }
+	if (size == 0)
+	{
+	return (NULL);          /* Return NULL if size is 0 (edge case) */
+	}
 
-    buffer = (char *) malloc(size * sizeof(c)); /* Allocate memory for the array */
+	buffer = (char *) malloc(size * sizeof(c)); /* Allocate memory for the array */
 
-    if (buffer == 0)
-    {
-        return (NULL);          /* Return NULL if memory allocation fails */
-    }
-else
-    {
-        position = 0;           /* Initialize the position to 0 */
+	if (buffer == 0)
+	{
+	return (NULL);          /* Return NULL if memory allocation fails */
+	}
+	else
+	{
+	position = 0;           /* Initialize the position to 0 */
 
-        while (position < size) /* Loop to initialize the array elements */
-        {
-            *(buffer + position) = c; /* Set each element to the character c */
-            position++;
-        }
+	while (position < size) /* Loop to initialize the array elements */
+	{
+*(buffer + position) = c; /* Set each element to the character c */
+	position++;
+	}
 
-        return (buffer);        /* Return a pointer to the newly created array */
-    }
+	return (buffer);        /* Return a pointer to the newly created array */
+	}
 }
