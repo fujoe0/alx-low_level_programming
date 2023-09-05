@@ -7,7 +7,7 @@
  * @c: the character to initialize the array with
  *
  * Return: On success, returns a pointer to the newly created array.
- *         If size is 0 or if memory allocation fails, returns NULL.
+ * If size is 0 or if memory allocation fails, returns NULL.
  */
 char *create_array(unsigned int size, char c)
 {
@@ -25,7 +25,7 @@ char *create_array(unsigned int size, char c)
     {
         return (NULL);          /* Return NULL if memory allocation fails */
     }
-    else
+else
     {
         position = 0;           /* Initialize the position to 0 */
 
