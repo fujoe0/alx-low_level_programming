@@ -29,7 +29,7 @@ char *create_array(unsigned int size, char c)
 	{
 	position = 0;           /* Initialize the position to 0 */
 
-	while (position < size) /* Loop to initialize the array elements */
+	while (position < size)
 	{
 *(buffer + position) = c; /* Set each element to the character c */
 	position++;
