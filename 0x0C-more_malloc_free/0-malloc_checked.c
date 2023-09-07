@@ -18,5 +18,5 @@ void *malloc_checked(unsigned int b)
 	{
 		exit(98);  /* If malloc fails, exit with status 98 */
 	}
-	return ptr;  /* Return the pointer to the allocated memory */
+	return (ptr);
 }
