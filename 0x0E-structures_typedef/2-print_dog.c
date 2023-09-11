@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "dog.h"
 
+/*print_dog - this function prints struct dog*/
+
 void print_dog(struct dog *d)
 {
 	if (d == NULL)
