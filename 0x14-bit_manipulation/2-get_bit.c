@@ -9,12 +9,12 @@
  */
 int get_bit(unsigned long int n, unsigned int index)
 {
-	if (index >= 64) // Check if the index is out of range
+	if (index >= 64)
 		return (-1);
 
 	unsigned long int mask = 1UL << index;
 
-	if (n & mask) // Check if the bit at the index is 1
+	if (n & mask)
 		return (1);
 	else
 		return (0);
